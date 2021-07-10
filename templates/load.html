@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Search</title>
+  </head>
+  <body>
+
+    <form name="search" action="." method="post">
+      <div>
+        <label>Type here... </label>
+        <input type="text" name="box">
+        <button>Search</button>
+
+      </div>
+      {% for n in range(5) %}
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <div class="card-text">
+              <p><strong><a href="{{ urlout[n] }}" target="_blank" rel="noopener noreferrer">{{ head[n] }}</a></strong></p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </form>
+  </body>
+</html>

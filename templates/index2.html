@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Shivam's Web Page</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="form">
+        <form name="search" action="." method="post">
+
+        <label>Type here... </label>
+        <input type="text" name="box">
+        <button>Search</button>
+        </form>
+    </div>
+
+      {% for n in range(l) %}
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">{{ sites[n] }}</h5>
+            <div class="card-text">
+              <p><strong><a href="{{ urlout[n] }}" target="_blank" rel="noopener noreferrer">{{ head[n] }}</a></strong></p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+
+  <hr>
+ <div class="social">
+
+        <h2 class="con">contact me </h2>
+       <a  href="https://www.twitter.com/"><img class="si" src="tw.jpg" srcset="tw.jpg 2x" alt="Twitter"></a>
+       <a  href="https://www.facebook.com/"><img class="si" src="fb.png" srcset="fb.png " alt="Facebook"></a>
+       <a  href="https://www.instagram.com/"><img class="si" src="insta.png" srcset="insta.png 2.5x" alt="Instagram"></a>
+
+    </div>
+ <hr>
+
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+        body
+        {
+               background-color:#EDEDDC;
+              text-align:centre;
+        }
+         hr
+          {
+              border-color:orange;
+              border-style:none;
+              border-top-style:dotted;
+              border-width:5px;
+              width:10%;
+              margin:0 auto 0 auto;
+              t
+          }
+          p{
+            font-size: 22px;
+          }
+
+
+             .gi
+             {
+               width: fit-content;
+
+               margin:0 auto;
+
+
+             }
+           h3
+           {
+           font-family: 'Amiri', serif;
+           }
+           .top
+            {
+
+             background-color:#80F5F3;
+             width:100%;
+             height:auto;
+             margin:0 auto 0 auto;
+              position: absolute;
+
+                    }
+
+
+            .cur
+                     {
+                      color:brown;
+                      font-size:50px;
+                      Width:fit-content;
+
+                       margin:0 auto 50px auto;
+                     font-family: 'Sacramento', cursive;
+                     position:relative;
+                     padding-top: 350px;
+
+
+                     }
+
+              .s1
+              {
+               
+                 border-radius: 30%;
+              }
+
+           .form
+           {
+            width:fit-content;
+            text-align: center;
+
+            margin:100px auto 100px auto;
+
+           }
+           .pi
+           {
+            border-radius:50%;
+           }
+           .pib
+           {
+             width:fit-content;
+             margin:50px auto 0 auto;
+
+           }
+           .card
+           {
+             width:fit-content;
+           margin:100px auto 100px auto;
+
+           }
+           .sec-img{
+             border-radius: 30%;
+             float: left;
+           }
+           .sec-text
+           {
+             padding-left: 150px;
+             padding-top: 20px;
+           }
+           .tc
+           {
+             width: fit-content;
+             margin:0 auto 30px auto;
+             color: red;
+           }
+           .third
+           {
+             width:fit-content;
+             margin:100px auto 100px auto;
+
+
+
+           }
+           .four
+           {
+            width:fit-content;
+            margin:100px auto 100px auto;
+           }
+           .four-img{
+             clear:left;
+           }
+           .four-text
+           {
+            float: right;
+            margin-left: 20px;
+           }
+
+           .social
+           {
+           width:fit-content;
+
+           margin:100px auto 10px auto;
+           border-style:dashed;
+            border-color: lime;
+            background-color:white;
+           }
+           .con{
+             background-color: orange;
+             width:fit-content;
+             margin:0 auto 25px auto;
+
+            }
+          
